@@ -32,6 +32,32 @@ Traditional diagnostic approaches often miss subtle relationships between risk f
 - Hierarchical clustering showed relationships between risk levels
 - Four distinct patient risk groups were identified based on features like **cholesterol**, **oldpeak**, and **exercise-induced angina**
 
+## 📸 Visualizations
+
+### 📍 PCA Visualization
+Shows how high-dimensional data was reduced to 2D space.
+![PCA](pca_plot.png)
+
+### 📍 Elbow Method
+Used to determine the optimal number of clusters for K-Means.
+![Elbow Method](elbow_method.png)
+
+### 📍 K-Means Clustering Result
+Well-separated patient groups based on risk profiles.
+![K-Means](kmeans_clusters.png)
+
+### 📍 DBSCAN Clustering Result
+Highlights outliers with irregular risk patterns.
+![DBSCAN](dbscan_clusters.png)
+
+### 📍 Hierarchical Clustering Dendrogram
+Shows how patient groups are nested by similarity.
+![Dendrogram](dendrogram.png)
+
+### 📍 Correlation Heatmap
+Displays relationships between heart disease risk factors.
+![Correlation Heatmap](correlation_heatmap.png)
+
 ## 🧪 How to Run
 
 1. Download the `.ipynb` file from this repo
