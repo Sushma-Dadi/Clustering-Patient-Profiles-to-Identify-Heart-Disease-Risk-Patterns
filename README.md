@@ -2,9 +2,20 @@
 
 This project uses **Unsupervised machine learning** using K-Means, DBSCAN, and Hierarchical clustering on a Kaggle heart disease dataset. PCA and EDA for data pre‑processing and visualization. Evaluation via Silhouette Score & Davies‑Bouldin to identify high-risk patient groups for personalized preventive healthcare.
 
-- ## 🩺 Project Overview
+## 🩺 Project Overview
 
-Heart disease continues to be a leading global health challenge. This project employs **unsupervised machine learning** to uncover hidden patterns in patient cardiovascular data using a Kaggle heart disease dataset. Utilizing **K-Means**, **DBSCAN**, and **Hierarchical Clustering**, the analysis segments patients into four distinct risk profiles—and even identifies outliers—for **early detection initiatives and targeted healthcare interventions**.
+Cardiovascular disease remains a leading global health risk. This project applies **unsupervised machine learning** to a publicly available Kaggle heart disease dataset to uncover hidden patient risk profiles. Using **K-Means**, **DBSCAN**, and **Hierarchical Clustering**, the analysis segments patients into four distinct clusters—including outliers—for potential early intervention and personalized healthcare planning.
+
+**Methodology Highlights:**
+- ✅ Encoded and normalized data (Z-score standardization)
+- 🔍 Explored features and relationships via correlation analysis and PCA
+- 📈 Determined cluster count using the elbow method and validated clustering quality using **Silhouette Score** and **Davies–Bouldin Index**
+- 📊 Visualized results through PCA scatterplots, dendrograms, heatmaps, and elbow curves for interpretability
+
+**Key Contributions:**
+- Demonstrates that **unsupervised clustering can effectively stratify patient risk groups without labeled data**
+- Combines multiple algorithms for robust identification of high-risk clusters and outliers
+- Provides clear, interpretable visuals to support data-driven healthcare insights
 
 The pipeline covers:
 - ✅ **Data preparation**: Handling encoding and applying Z-score normalization  
@@ -16,7 +27,6 @@ The pipeline covers:
 - Demonstrated how unsupervised learning can stratify patient risk groups without needing labeled outcomes  
 - Combined complementary algorithms to validate high-risk clusters and isolate outliers  
 - Provided clear, interpretable visualizations supporting a data-driven approach to preventive healthcare  
-
 
 ## 📊 Dataset
 
