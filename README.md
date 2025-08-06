@@ -2,14 +2,21 @@
 
 This project uses **Unsupervised machine learning** using K-Means, DBSCAN, and Hierarchical clustering on a Kaggle heart disease dataset. PCA and EDA for data pre‑processing and visualization. Evaluation via Silhouette Score & Davies‑Bouldin to identify high-risk patient groups for personalized preventive healthcare.
 
-## 🩺 Project Overview
+- ## 🩺 Project Overview
 
-Cardiovascular health remains a critical global concern. This project applies **unsupervised machine learning** to identify hidden patterns in patient heart records from a publicly available Kaggle dataset. Through **K-Means**, **DBSCAN**, and **Hierarchical Clustering**, we segmented patients into four distinct risk groups. The data processing pipeline includes **encoding**, **z-score normalization**, **PCA for dimensionality reduction**, and **correlation analysis**, while cluster performance is validated using **Silhouette Score** and **Davies‑Bouldin Index**.
+Heart disease continues to be a leading global health challenge. This project employs **unsupervised machine learning** to uncover hidden patterns in patient cardiovascular data using a Kaggle heart disease dataset. Utilizing **K-Means**, **DBSCAN**, and **Hierarchical Clustering**, the analysis segments patients into four distinct risk profiles—and even identifies outliers—for **early detection initiatives and targeted healthcare interventions**.
 
-### Key Contributions:
-- ✔️ Demonstrated how unsupervised learning reveals patient risk clusters without labeled outcomes
-- 📈 Identified high-risk patient subgroups and outliers through complementary modeling techniques
-- 🧠 Produced interpretable visualizations—PCA scatterplots, heatmaps, elbow curve, and dendrogram—that support evidence-based risk stratification
+The pipeline covers:
+- ✅ **Data preparation**: Handling encoding and applying Z-score normalization  
+- 🔍 **Exploratory analysis**: PCA dimensionality reduction and feature correlation assessment  
+- 🧠 **Clustering evaluation**: Assessing models using **Silhouette Score** and **Davies–Bouldin Index**  
+- 📈 **Interpretability**: Visualizing clusters via PCA scatterplots, elbow curve, dendrograms, and heatmaps
+
+**Key Contributions:**
+- Demonstrated how unsupervised learning can stratify patient risk groups without needing labeled outcomes  
+- Combined complementary algorithms to validate high-risk clusters and isolate outliers  
+- Provided clear, interpretable visualizations supporting a data-driven approach to preventive healthcare  
+
 
 ## 📊 Dataset
 
