@@ -1,6 +1,16 @@
 # 🧠 Clustering Patient Profiles to Identify Heart Disease Risk Patterns
 
 This project uses **Unsupervised machine learning** using K-Means, DBSCAN, and Hierarchical clustering on a Kaggle heart disease dataset. PCA and EDA for data pre‑processing and visualization. Evaluation via Silhouette Score & Davies‑Bouldin to identify high-risk patient groups for personalized preventive healthcare.
+
+## 🩺 Project Overview
+
+Cardiovascular health remains a critical global concern. This project applies **unsupervised machine learning** to identify hidden patterns in patient heart records from a publicly available Kaggle dataset. Through **K-Means**, **DBSCAN**, and **Hierarchical Clustering**, we segmented patients into four distinct risk groups. The data processing pipeline includes **encoding**, **z-score normalization**, **PCA for dimensionality reduction**, and **correlation analysis**, while cluster performance is validated using **Silhouette Score** and **Davies‑Bouldin Index**.
+
+### Key Contributions:
+- ✔️ Demonstrated how unsupervised learning reveals patient risk clusters without labeled outcomes
+- 📈 Identified high-risk patient subgroups and outliers through complementary modeling techniques
+- 🧠 Produced interpretable visualizations—PCA scatterplots, heatmaps, elbow curve, and dendrogram—that support evidence-based risk stratification
+
 ## 📊 Dataset
 
 - **Source**: [Kaggle - Heart Disease Dataset](https://www.kaggle.com/datasets/hosammhmdali/heart-disease-dataset)
