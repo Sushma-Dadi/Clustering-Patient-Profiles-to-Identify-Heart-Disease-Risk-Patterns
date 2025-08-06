@@ -1,7 +1,6 @@
 # 🧠 Clustering Patient Profiles to Identify Heart Disease Risk Patterns
 
-This project uses **unsupervised machine learning** techniques to segment patients based on cardiovascular risk indicators, aiming to support early detection and personalized healthcare strategies.
-
+This project uses **Unsupervised machine learning** using K-Means, DBSCAN, and Hierarchical clustering on a Kaggle heart disease dataset. PCA and EDA for data pre‑processing and visualization. Evaluation via Silhouette Score & Davies‑Bouldin to identify high-risk patient groups for personalized preventive healthcare.
 ## 📊 Dataset
 
 - **Source**: [Kaggle - Heart Disease Dataset](https://www.kaggle.com/datasets/hosammhmdali/heart-disease-dataset)
